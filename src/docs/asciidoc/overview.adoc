@@ -152,7 +152,7 @@ https://projects.spring.io/spring-boot/[Spring Boot]
 Spring Boot 提供了一种快速（且自以为是）的方法来创建可用于生产环境的基于 Spring 的应用程序。
 它基于 Spring 框架，更倾向于约定而不是配置，并且旨在尽快启动并运行。
 
-您可以使用 https://start.spring.io/[start.spring.io]
+可以使用 https://start.spring.io/[start.spring.io]
 生成基本项目，也可以遵循
 https://spring.io/guides[“入门”指南]之一，例如
 https://spring.io/guides/gs/rest-service/[开始构建 RESTful Web 服务]。
