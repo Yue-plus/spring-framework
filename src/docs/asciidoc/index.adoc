@@ -1,30 +1,30 @@
-= Spring Framework Documentation
+= Spring Framework 文档
 :doc-root: https://docs.spring.io
 :api-spring-framework: {doc-root}/spring-framework/docs/{spring-version}/javadoc-api/org/springframework
 
 ****
-_What's New_, _Upgrade Notes_, _Supported Versions_, and other topics,
-independent of release cadence, are maintained externally on the project's
-https://github.com/spring-projects/spring-framework/wiki[*Github Wiki*].
+_最新动态_、_升级文档_, _版本支持_、与其他专题，
+与发布节奏无关，在项目的
+https://github.com/spring-projects/spring-framework/wiki[*Github Wiki*] 上进行外部维护。
 ****
 
 [horizontal]
-<<overview.adoc#overview, Overview>> :: history, design philosophy, feedback,
-getting started.
-<<core.adoc#spring-core, Core>> :: IoC Container, Events, Resources, i18n,
-Validation, Data Binding, Type Conversion, SpEL, AOP.
-<<testing.adoc#testing, Testing>> :: Mock Objects, TestContext Framework,
-Spring MVC Test, WebTestClient.
-<<data-access.adoc#spring-data-tier, Data Access>> :: Transactions, DAO Support,
-JDBC, R2DBC, O/R Mapping, XML Marshalling.
-<<web.adoc#spring-web, Web Servlet>> :: Spring MVC, WebSocket, SockJS,
-STOMP Messaging.
-<<web-reactive.adoc#spring-webflux, Web Reactive>> :: Spring WebFlux, WebClient,
-WebSocket, RSocket.
-<<integration.adoc#spring-integration, Integration>> :: Remoting, JMS, JCA, JMX,
-Email, Tasks, Scheduling, Caching.
-<<languages.adoc#languages, Languages>> :: Kotlin, Groovy, Dynamic Languages.
-<<appendix.adoc#appendix, Appendix>> :: miscellaneous topics.
+<<overview.adoc#overview, 概览>> :: 历史、设计理念、反馈、
+入门指南。
+<<core.adoc#spring-core, 核心>> :: IoC 容器、事件、资源、国际化、
+验证、数据绑定、类型转换、SpEL、AOP。
+<<testing.adoc#testing, 测试>> :: Mock 对象、TestContext 框架、
+Spring MVC 测试、WebTestClient。
+<<data-access.adoc#spring-data-tier, 数据访问>> :: 事务、DAO 支持、
+JDBC、R2DBC、O/R 映射、XML 编组。
+<<web.adoc#spring-web, Web Servlet>> :: Spring MVC、WebSocket、SockJS、
+STOMP 消息传递。
+<<web-reactive.adoc#spring-webflux, 反应式 Web>> :: Spring WebFlux、WebClient、
+WebSocket、RSocket。
+<<integration.adoc#spring-integration, 集成>> :: 远程访问、JMS、JCA、JMX、
+电子邮件、任务、调度、缓存。
+<<languages.adoc#languages, 编程语言>> :: Kotlin、Groovy、动态类型的编程语言。
+<<appendix.adoc#appendix, 附录>> :: 其他专题
 
 Rod Johnson, Juergen Hoeller, Keith Donald, Colin Sampaleanu, Rob Harrop, Thomas Risberg,
 Alef Arendsen, Darren Davison, Dmitriy Kopylenko, Mark Pollack, Thierry Templier, Erwin
@@ -35,6 +35,6 @@ Nicoll, Sebastien Deleuze, Jay Bryant, Mark Paluch
 
 Copyright © 2002 - 2021 Pivotal, Inc. All Rights Reserved.
 
-Copies of this document may be made for your own use and for distribution to others,
-provided that you do not charge any fee for such copies and further provided that each
-copy contains this Copyright Notice, whether distributed in print or electronically.
+本文档的副本可以供你自己使用，也可以分发给他人，
+但前提是你不对此类副本收取任何费用，
+并且还应确保每份副本均包含本版权声明（无论是印刷版本还是电子版本）。
